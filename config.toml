@@ -1,0 +1,72 @@
+baseURL = "https://barkingtamago.com"
+languageCode = "en-us"
+title = "Barking Tamago"
+theme = "cactus"
+contentdir = "content"
+
+[author]
+  name = "tamago"
+
+[permalinks]
+blog  = ":slug/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  # Categories are disabled by default.
+
+[[params.social]]
+  name = "instagram"
+  link = "https://www.instagram.com/tamago.lim"
+
+[params]
+  include_rss     = true
+  author          = "Tamago"
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+  #gravatar = "lseokmin@gmail.com"
+  colortheme = "white"
+  description = "I'm a first-time dog owner and this is my dog, Tamago."
+  tagsOverview = false
+  postsOnHomePage = 10
+  
+  # Metadata mostly used in document's head
+  # description = ""
+  # images = [""]
+  themeColor = "#494f5c"
+
+  homeSubtitle = "tech | security | life"
+  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  # bgImg = ""  # Homepage background-image URL
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  # gitUrl = "https://github.com/username/repository/commit/"
+
+  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
+  justifyContent = true  # Set "text-align: justify" to `.content`.
+
+  relatedPosts = true  # Add a related content section to all single posts page
+
+  code_copy_button = true # Turn on/off the code-copy-button for code-fields
+  
+  # Add custom css
+  # customCSS = ["css/foo.css", "css/bar.css"]
+
+  # Social Icons
+  # Check https://github.com/Track3/hermit#social-icons for more info.
+
+[menu]
+
+  [[menu.main]]
+    name                   = "posts"
+    weight                 = 10
+    identifier             = "#posts"
+    url                    = "/blog/"
+
+  [[menu.main]]
+    name = "about"
+    url = "/about/"
+    weight = 20
+
