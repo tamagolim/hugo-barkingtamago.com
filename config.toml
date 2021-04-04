@@ -57,6 +57,10 @@ blog  = ":slug/"
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
 
+  [params.instagram]
+    AppId = "4687211887972546"
+    ClientToken = "191a04211a0d61e554767e5e853c497c"
+    
 [menu]
 
   [[menu.main]]

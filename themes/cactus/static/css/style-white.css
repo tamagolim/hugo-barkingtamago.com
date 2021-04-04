@@ -321,7 +321,7 @@
     display: block;
     margin-top: 3rem;
     margin-bottom: 1rem;
-    color: #2bbc8a;
+    color: #383838;
     letter-spacing: 0.01em;
     font-weight: 700;
     font-style: normal;
@@ -465,7 +465,7 @@
     font-display: swap;
     font-weight: 400;
     font-size: 17px;
-    font-family: Helvetica;
+    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;;
     line-height: 1.725;
     text-rendering: geometricPrecision;
     flex: 1;
@@ -1224,11 +1224,44 @@
     .article-category {
       display: inline;
     }
-    .article-tag:before,
+    /* .article-tag:before,
     .article-category:before {
       content: "|";
-    }
+    } */
   }
+
+  .title{
+    font-size:30px;
+    letter-spacing: 1px;
+    line-height:20px;
+    text-align:center;
+  }
+
+  .toc{
+    background-color:#eeeeee;
+    padding:10px;
+    margin-top:20px;
+    font-size:14px;
+    border:1px solid #ccc;
+  }
+
+  .toc::before{
+    content:"Table of Content";
+    font-size:20px;
+    font-weight:550;
+  }
+
+  .tip {
+      text-align: center;
+      color: #8c8c8c;
+      margin-top: 0;
+      font-size: 14px;
+  }
+
+  .split {
+    margin: 0 4px;
+  }
+
   #archive .post-list {
     padding: 0;
   }

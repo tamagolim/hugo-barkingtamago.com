@@ -5,6 +5,42 @@
   {{ if (eq .Type "search") }}
     <!-- TODO: search https://gohugo.io/tools/search/ -->
   {{ else }}
+    <h1 class="title" itemprop="name headline">{{ .Title }}</h1>
+    <div class="tip">
+      <div class="postdate">
+        {{ $dataFormat := .Site.Params.dateFormat | default "2006-01-02" }}
+        <time datetime="{{ .Date }}" itemprop="datePublished">{{ .Date.Format $dataFormat }}</time>
+        {{ if (and .Site.Params.show_updated (ne .Lastmod .Date)) }}
+          (Updated: <time datetime="{{ .Lastmod }}" itemprop="dateModified">{{ .Lastmod.Format $dataFormat }}</time>)
+        {{ end }}
+        <span class="split">·</span>
+          {{ if lt 1 .WordCount }}
+            {{ .WordCount }} words
+          {{ else }}
+              {{ .WordCount }} word
+          {{ end }}
+        {{ if gt .Params.categories 0 }}
+          {{ range $index, $value := .Params.categories }}
+          {{ if gt $index 0 }} {{ print ", " }} {{ end }}
+          <span class="split">·</span>
+          <a class="category-link" href="{{ "/categories/" | relLangURL }}{{ $value | urlize }}">#{{ $value }}</a>
+          {{ end }}
+          {{ if gt .Params.tags 0 }}
+          <div class="article-tag">
+              {{ range $index, $value := .Params.tags }}
+              {{ if gt $index 0 }} {{ print ", " }} {{ end }}
+              <span class="split">·</span>
+              <a class="tag-link" href="{{ "/tags/" | relLangURL }}{{ $value | urlize }}" rel="tag">{{ $value }}</a>
+              {{ end }}
+          </div>
+          {{ end }}
+          
+        {{ end }}
+      </div>
+    </div>
+    <div class="toc">
+      {{.TableOfContents}}
+    </div>
     {{ .Content }}
   {{ end }}
   </div>
