@@ -7,7 +7,7 @@ categories: ["training"]
 
 ## Why Crate Training?
 
-When I was child, I vaguely remember that my ex-neighbour confined a puppy in the crate and put it outside of his house. Mind you, we live in HDB flats. This means that the dog has no access to any space apart from his crate. I don't recall my neighbour ever letting the dog out of the crate during that week he was outside the house. The dog cried for a few nights and subsequently disappeared after a week or so.
+When I was a child, I vaguely remember that my ex-neighbour confined a puppy in the crate and put it outside of his house. Mind you, we live in HDB flats. This means that the dog has no access to any space apart from his crate. I don't recall my neighbour ever letting the dog out of the crate during that week he was outside the house. The dog cried for a few nights and subsequently disappeared after a week or so.
 
 Due to that incident, my impression on crate is fairly negative. Why should we limit our dog's movement in a confined space when they should be given a grassland to run about? It was only after I started reading on crate training then I know that my impression on crate is incorrect. 
 
