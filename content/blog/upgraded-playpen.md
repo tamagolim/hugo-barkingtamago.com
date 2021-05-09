@@ -99,7 +99,7 @@ He was a bit restless in the beginning but he managed to settle after a few days
 
 I was too complacent and have let my guard down. Many veteran trainers have warned that we shouldn't be giving our dogs too much freedom in the first year. I thought that he has been behaving very well until all the chewing incidents happened. 
 
-What I can do now is to just take a step back and train Tamago from the basic again. I can wish for the best dog but things might not be the way I wish for if I don't execute.
+What I can do now is to just take a step back and train Tamago from the basic again. I can wish for the best dog but things might not be the way I wish for if I don't execute. This starts from putting him back to playpen again and force him to take a nap. In addition, I will be purchasing some snuffle mat or treats dispenser to keep his mental busy when I cannot supervise him.
 
 Anyway, he has grown taller and stronger. I've upgraded his PVC playpen to a sturdier metal playpen as he has been able to jump-push open the PVC fences.
 
