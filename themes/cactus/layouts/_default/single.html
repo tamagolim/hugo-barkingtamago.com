@@ -38,9 +38,13 @@
         {{ end }}
       </div>
     </div>
-    <div class="toc">
-      {{.TableOfContents}}
-    </div>
+  
+      {{ if .Params.TOC }}
+        <div class="toc">
+          {{.TableOfContents}}
+        </div>
+      {{ end }}
+    
     {{ .Content }}
   {{ end }}
   </div>

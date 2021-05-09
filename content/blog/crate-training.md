@@ -3,6 +3,7 @@ title: "Crate Training"
 date: 2021-04-09T11:36:42+08:00
 draft: false
 categories: ["training"]
+toc: true
 ---
 
 ## Why Crate Training?

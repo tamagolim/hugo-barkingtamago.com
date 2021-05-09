@@ -3,6 +3,7 @@ title: "The Real Cost of Owning a Dog in Singapore"
 date: 2021-04-05T07:37:09+08:00
 draft: False
 categories: ["journey"]
+toc: true
 ---
 
 Now that I've owned a dog, I can pen down the actual cost of dog ownership in Singapore. This is meant to give a rough idea to interested parties who want to own a dog in Singapore. Price varies from store to store so I might not be getting the items from the cheapest store. Also... Tamago is a small-sized dog, the cost might be different for medium and large dogs.
