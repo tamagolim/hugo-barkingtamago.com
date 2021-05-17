@@ -27,7 +27,7 @@ Enjoy!
 
 **Personality:** 
 
-- Chase-proneness
+- High prey drive
 - Playful
 - Can be nervous and jumpy
 - Good with humans
@@ -46,6 +46,7 @@ We are trying to get Tamago to gain healthy weight! I'm targeting 3.5-3.8kg for 
 | 7th March 2021      | 2.9kg |
 | 30 March 2021      | 3.1kg |
 | 4 April 2021 | 3.3kg|
+| 14 May 2021 | 4.25kg|
 
 ----
 
